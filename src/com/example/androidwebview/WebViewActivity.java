@@ -22,7 +22,7 @@ public class WebViewActivity extends Activity {
        myWebView.getSettings().setJavaScriptEnabled(true);
        //Toast.makeText(this, "about to load page", Toast.LENGTH_LONG).show();
        //myWebView.loadUrl("http://www.google.com");
-       myWebView.loadUrl("http://192.168.2.2/server3.php"); //url of html form goes here
+       myWebView.loadUrl("http://192.168.2.2/sms/server3.php"); //url of html form goes here
 	}
 
 	@Override
